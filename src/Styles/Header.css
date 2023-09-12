@@ -1,0 +1,49 @@
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu li {
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#toolbar img {
+    width: 40px;
+    height: 40px;
+}
+
+#typography img {
+    width: 40px;
+    height: 40px;
+}
+
+.navigation-menu li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid goldenrod;
+    color: goldenrod;
+    transition: all 400ms;
+}
+
+.mobile-navigation-menu {
+    list-style: none;
+}
+
+.mobile-navigation-menu li {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.mobile-navigation-menu li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}

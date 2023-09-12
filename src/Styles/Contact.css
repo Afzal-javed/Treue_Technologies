@@ -1,0 +1,184 @@
+#contactPage {
+    min-height: calc(100vh-4rem);
+    overflow: hidden;
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.clientPageTitle {
+    margin: 1.5rem auto;
+    font-size: 2rem;
+    font-weight: 200;
+    border-bottom: 4px solid goldenrod;
+    border-radius: 1rem;
+}
+
+.contact {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactPageTitle {
+
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid goldenrod;
+    border-radius: 1rem;
+
+
+}
+
+.clientDesc {
+    font-weight: 200;
+    font-size: 1rem;
+    gap: 5px;
+    margin: 1.6rem auto;
+}
+
+.clientImgs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.clientImg1 {
+    object-fit: cover;
+    width: 95%;
+    max-width: 10rem;
+
+}
+
+.clientImg2 {
+    object-fit: cover;
+    width: 95%;
+    max-width: 10rem;
+
+}
+
+.clientImg3 {
+    object-fit: cover;
+    width: 95%;
+    max-width: 20rem;
+
+}
+
+.clientImg4 {
+    object-fit: cover;
+    width: 95%;
+    max-width: 7.5rem;
+
+}
+
+
+.client {
+    padding: 2rem;
+}
+
+.contactDesc {
+    padding: 0.7rem;
+    font-size: medium;
+    font-weight: 200;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name,
+.email,
+.msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+    outline: none;
+}
+
+.submitbtn {
+    background: goldenrod;
+    margin: 1rem;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.submitbtn:hover {
+    color: black;
+    background: white;
+}
+
+.logos img {
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    display: inline;
+}
+
+.logos img:hover {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+#github {
+    width: 64px;
+    height: 64px;
+}
+
+#insta {
+    width: 64px;
+    height: 64px;
+}
+
+@media screen and (max-width:600px) {
+    .clientImgs {
+        grid-template-columns: auto auto;
+    }
+
+    .clientImg1 {
+
+        max-width: 10rem;
+    }
+
+    .clientImg2 {
+
+        max-width: 10rem;
+    }
+
+    .clientImg3 {
+
+        max-width: 10rem;
+    }
+
+    .clientImg4 {
+
+        max-width: 10rem;
+        height: 5.5rem;
+    }
+
+}

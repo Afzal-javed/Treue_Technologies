@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+#education {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 66rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.educationTitle {
+    font-size: 2.3rem;
+    font-weight: 200;
+    border-bottom: 4px solid goldenrod;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.collageInfo {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.left {
+    width: 50vw;
+    max-width: 37rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    opacity: 0.8;
+}
+
+.collageName {
+    font-size: 1.5rem;
+    font-weight: 150;
+    margin-bottom: 1rem;
+}
+
+.course {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.branch {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.year {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.desc {
+    font-size: 0.7;
+    font-weight: 70;
+    text-align: start;
+
+}
+
+.right {
+    width: 50vw;
+    max-width: 28rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width:800px) {
+    .collageInfo {
+        grid-template-columns: auto;
+        grid-row-gap: 1rem;
+    }
+
+    .left {
+        align-items: center;
+
+    }
+
+    .right {
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .desc {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .collageInfo {
+        grid-template-columns: auto;
+        grid-row-gap: 1rem;
+    }
+
+    .left {
+        align-items: center;
+
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}

@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.skillDesc {
+    font-weight: 50;
+    opacity: 0.7;
+    font-size: 0.9rem;
+    max-width: 60rem;
+    padding: 0 2rem;
+}
+
+.skillBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem 1rem;
+
+}
+
+.skillBar img {
+    width: 18px;
+    height: 18px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 2.5rem;
+
+}
+
+.skills {
+    text-align: right;
+    border-radius: 2rem;
+    color: white;
+
+}
+
+.html {
+    width: 90%;
+    background-color: #04AA6D;
+    animation: html 2s;
+}
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+    animation: css 2s;
+}
+
+.js {
+    width: 65%;
+    background-color: rgb(238, 247, 67);
+    animation: js 2s;
+}
+
+.java {
+    width: 78%;
+    background-color: rgb(248, 93, 37);
+    animation: java 2s;
+}
+
+.react {
+    width: 70%;
+    background-color: rgb(47, 68, 187);
+    animation: react 2s;
+}
+
+.node {
+    width: 53%;
+    background-color: #0b8a07;
+    animation: node 2s;
+}
+
+.mongo {
+    width: 67%;
+    background-color: #084805;
+    animation: mongo 2s;
+}
+
+.express {
+    width: 45%;
+    background-color: black;
+    animation: express 2s;
+}
+
+.sql {
+    width: 61%;
+    background-color: #6f0b0b;
+    animation: sql 2s;
+}
+
+.c {
+    width: 50%;
+    background-color: aqua;
+    animation: c 2s;
+}
+
+
+@media screen and (max-width:800px) {
+    .skillBars {
+        grid-template-columns: auto;
+    }
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes java {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 78%;
+    }
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes node {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 53%;
+    }
+}
+
+@keyframes mongo {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 67%;
+    }
+}
+
+@keyframes express {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 45%;
+    }
+}
+
+@keyframes sql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 61%;
+    }
+}
+
+@keyframes c {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
